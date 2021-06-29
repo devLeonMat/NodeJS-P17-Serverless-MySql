@@ -29,14 +29,9 @@ provider:
   lambdaHashingVersion: 20201221
   vpc:
     securityGroupIds:
-      - sg-0ce6ad1081908a657
+      - { security-group-id }
     subnetIds:
-      - subnet-07601494d4ff279bb
-      - subnet-0474891fa584cec67
-      - subnet-003a6cd7f5e1e7671
-      - subnet-0d081346fae393a09
-      - subnet-04f76d42806ea135e
-      - subnet-028c0c0adfe02b58a
+      - { subnet-id }
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1

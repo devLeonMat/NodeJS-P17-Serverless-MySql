@@ -1,11 +1,11 @@
 const mysql = require('mysql');
 
 const configDB = {
-    host: 'sls-demo.cf8ag3e7hs2g.us-east-1.rds.amazonaws.com',
-    user: 'admin',
-    password: '12345678',
-    port: '3306',
-    database: 'sls_demo',
+    host: '{aws-rds-endpoint}',
+    user: '{user}',
+    password: '{password}',
+    port: '{port',
+    database: '{database}',
     debug: true
 };
 
