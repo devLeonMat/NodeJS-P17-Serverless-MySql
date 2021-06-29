@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-p17-serverless-mysql",
+  "version": "1.0.0",
+  "description": "NodeJS-P17-Serverless-MySql",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonmatias2015/NodeJS-P17-Serverless-MySql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonmatias2015/NodeJS-P17-Serverless-MySql/issues"
+  },
+  "homepage": "https://github.com/leonmatias2015/NodeJS-P17-Serverless-MySql#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "querystring": "^0.2.1",
+    "serverless-offline": "^7.0.0"
+  }
+}
